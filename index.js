@@ -21,14 +21,14 @@ const returnLastTwoDrivers = function (array){
   }
 } 
 
-
-
-const fareDoubler = function createFareDoupler(2){
+function createFareDoupler(value){
   return function (Doupler){
     return value * Doupler ;
     
   }
 } 
+
+const fareDoubler = createFareDoupler(2);
 
 function createFareTripler(value){
   return function (Tripler){
