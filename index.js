@@ -28,7 +28,6 @@ function fareDoupler (value){
    return value * 2 ;
   
 }
-const fareDoubler = createFareDoupler(2);
 
 function fareTripler (value){
   
