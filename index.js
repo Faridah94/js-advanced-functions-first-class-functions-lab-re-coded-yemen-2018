@@ -35,3 +35,7 @@ function fareTripler (value){
   
 }
 
+function selectDifferentDrivers(array , Funct){
+   
+  return Funct(array);
+}
