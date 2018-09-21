@@ -23,7 +23,7 @@ const returnLastTwoDrivers = function (array){
 
  
 
-function fareDoupler (value){
+function fareDoubler (value){
   
    return value * 2 ;
   
