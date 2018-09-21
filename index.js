@@ -38,3 +38,4 @@ function createFareTripler(value){
 } 
 
 const fareTripler = createFareTripler(3);
+
