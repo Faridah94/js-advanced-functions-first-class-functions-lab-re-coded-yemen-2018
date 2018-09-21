@@ -30,12 +30,9 @@ function createFareDoupler(value){
 
 const fareDoubler = createFareDoupler(2);
 
-function createFareTripler(value){
-  return function (Tripler){
-    return value * Tripler ;
-    
-  }
-} 
-
-const fareTripler = createFareTripler(3);
+function fareTripler (value){
+  
+ value * 3 ;
+  
+}
 
