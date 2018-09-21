@@ -21,13 +21,13 @@ const returnLastTwoDrivers = function (array){
   }
 } 
 
-function createFareDoupler(value){
-  return function (Doupler){
-    return value * Doupler ;
-    
-  }
-} 
+ 
 
+function fareDoupler (value){
+  
+   return value * 2 ;
+  
+}
 const fareDoubler = createFareDoupler(2);
 
 function fareTripler (value){
