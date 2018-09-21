@@ -32,7 +32,7 @@ const fareDoubler = createFareDoupler(2);
 
 function fareTripler (value){
   
- value * 3 ;
+   return value * 3 ;
   
 }
 
